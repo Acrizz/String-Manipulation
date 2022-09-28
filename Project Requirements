@@ -1,0 +1,15 @@
+Step 1
+Write the code for the “Count Vowels” button click event.  The subroutine should get the text from txtSentence and pass it to a function called CountVowels.  The CountVowels should use a loop and count all the vowels in the sentence( CASE INSENSITIVE ) and return the count.  The “Count Vowels” button click subroutine should then display a message box with the vowel count.
+
+Step 2
+Write the code for the “Count Vowels” button click event
+
+Step 3
+Write the code for the “Break Apart” button click event.  The subroutine should get the text from txtRecord and pass it to a subroutine called BreakApartRecord.  The BreakApartRecord subroutine should use a loop and break apart strRecord into fields and populate the txtField# textboxes.  A field is delimited by a comma.  Ignore anything after the 6th comma.  The “Break Apart” button click subroutine should also clear txtRecord. DO NOT USE SPLIT FUNCTION.
+
+Be sure to trim any leading and trailing spaces from the fields.
+
+Step 4
+Write the code for the “Format Phone Number” button click event.  The subroutine should get the text from txtPhoneNumber and pass it to a function called FormatPhoneNumber.  The FormatPhoneNumber function should add parentheses around the area code and insert dashes before the prefix and trunk.  The FormatPhoneNumber should return the formatted phone number.  The “Format Phone Number” click event should update the text in txtFormattedPhoneNumber with that string.
+
+Only format phone numbers that are 10 characters long.
